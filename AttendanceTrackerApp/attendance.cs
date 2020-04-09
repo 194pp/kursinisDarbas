@@ -75,13 +75,13 @@ namespace AttendanceTrackerApp
                 }
                 else
                 {
-                    notificationLabel.Text = "Wrong Password!";
+                    notificationLabel.Text = "Blogas slaptažodis!";
                     userEntryPass.Text = "";
                 }
             }
             else
             {
-                notificationLabel.Text = "There's no such user!";
+                notificationLabel.Text = "Tokio vartotojo nėra!";
                 clearInput();
             }
         }
@@ -123,18 +123,18 @@ namespace AttendanceTrackerApp
                     }
                     else
                     {
-                        notificationLabel.Text = "Jau nesate prisijungę!";
+                        notificationLabel.Text = "Nesate prisijungę!";
                     }
                 }
                 else
                 {
-                    notificationLabel.Text = "Wrong Password!";
+                    notificationLabel.Text = "Blogas slaptažodis!";
                     userEntryPass.Text = "";
                 }
             }
             else
             {
-                notificationLabel.Text = "There's no such user!";
+                notificationLabel.Text = "Tokio vartotojo nėra!";
                 clearInput();
             }
         }
