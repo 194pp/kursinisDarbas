@@ -50,12 +50,11 @@
             // 
             this.sysTime.AutoSize = true;
             this.sysTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sysTime.Location = new System.Drawing.Point(9, 357);
+            this.sysTime.Location = new System.Drawing.Point(8, 363);
             this.sysTime.Name = "sysTime";
             this.sysTime.Size = new System.Drawing.Size(59, 20);
             this.sysTime.TabIndex = 0;
             this.sysTime.Text = "Laikas:";
-            this.sysTime.Click += new System.EventHandler(this.sysTime_Click);
             // 
             // timer1
             // 
@@ -88,7 +87,7 @@
             this.pradetiDarbaButton.BackColor = System.Drawing.Color.LawnGreen;
             this.pradetiDarbaButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pradetiDarbaButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pradetiDarbaButton.Location = new System.Drawing.Point(12, 254);
+            this.pradetiDarbaButton.Location = new System.Drawing.Point(11, 260);
             this.pradetiDarbaButton.Name = "pradetiDarbaButton";
             this.pradetiDarbaButton.Size = new System.Drawing.Size(130, 100);
             this.pradetiDarbaButton.TabIndex = 3;
@@ -101,7 +100,7 @@
             this.baigtiDarbaButton.BackColor = System.Drawing.Color.Red;
             this.baigtiDarbaButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.baigtiDarbaButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.baigtiDarbaButton.Location = new System.Drawing.Point(139, 254);
+            this.baigtiDarbaButton.Location = new System.Drawing.Point(138, 260);
             this.baigtiDarbaButton.Name = "baigtiDarbaButton";
             this.baigtiDarbaButton.Size = new System.Drawing.Size(130, 100);
             this.baigtiDarbaButton.TabIndex = 4;
@@ -153,7 +152,6 @@
             this.registracijaToolStripMenuItem.Name = "registracijaToolStripMenuItem";
             this.registracijaToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.registracijaToolStripMenuItem.Text = "Registracija";
-            this.registracijaToolStripMenuItem.Click += new System.EventHandler(this.registracijaToolStripMenuItem_Click);
             // 
             // notificationTimer
             // 
@@ -187,7 +185,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Ivory;
-            this.ClientSize = new System.Drawing.Size(284, 385);
+            this.ClientSize = new System.Drawing.Size(284, 389);
             this.Controls.Add(this.pavadinimas);
             this.Controls.Add(this.notificationLabel);
             this.Controls.Add(this.label2);
